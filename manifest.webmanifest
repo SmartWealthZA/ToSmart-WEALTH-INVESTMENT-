@@ -1,0 +1,11 @@
+{
+  "name": "Smart Wealth Investments",
+  "short_name": "Smart Wealth",
+  "description": "Investment information profile for Smart Wealth Investments.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#090a0c",
+  "theme_color": "#090a0c",
+  "icons": [{"src":"assets/icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+}

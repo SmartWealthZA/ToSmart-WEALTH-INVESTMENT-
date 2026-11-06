@@ -1,0 +1,28 @@
+SMART WEALTH INVESTMENTS — FRONTEND DEPLOYMENT
+
+This ZIP contains the website frontend only. It does not replace or modify your
+existing Render backend.
+
+1. Extract this ZIP.
+2. Open Netlify Drop: https://app.netlify.com/drop
+3. Upload the extracted folder contents (the folder that contains index.html).
+4. Netlify will publish a temporary website address.
+5. Send that Netlify address back so the backend CORS setting can be checked.
+
+Pages:
+- index.html: public home page
+- account.html: customer registration/login and request history
+- admin.html: administrator review portal
+
+API connection:
+- config.js points to https://co-smart-wealth-investment.onrender.com
+
+IMPORTANT:
+- The existing backend must allow the final Netlify site origin in its CORS_ORIGIN
+  environment variable. Do not change it until the Netlify address is known.
+- The portal supports email/password only at this stage.
+- Deposit/withdrawal forms submit review requests only. They do not move money.
+- There are no live investment products, balances, payment processing, fund execution,
+  provider integrations, KYC/OTP or regulatory approvals in this starter.
+- Do not accept customer money or advertise this as an authorised investment service.
+- Never put JWT secrets, database URLs, passwords or API secrets in frontend files.
